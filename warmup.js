@@ -31,3 +31,45 @@ for(var i=0; i < times; i++){
 }
 
 // ex5
+var base = 20;
+var num = 5
+for(var i=0; i < base; i++){
+    console.log(num += base);
+}
+
+// ex6
+var times = 100;
+var total = 0
+for(var i=0; i < times; i++){
+    console.log(total += 1);
+}
+// ex7
+/*
+(3..15).each do |height|
+  if height > 9
+    puts "You can get on the rollercoaster!"
+  else
+    puts "You are too short to ride this rollercoaster."
+  end
+end
+*/
+
+// ex8
+var i=0, item, containers = ['purse','wallet','backpack'];
+while(item = containers[i++]){
+    console.log(item);
+}
+
+//ex9
+var helloWorld = console.log("Hello World!")
+helloWorld
+
+// ex10
+/*
+def add(first_num, second_num)
+  first_num + second_num
+end
+
+amount = add(5, 7)
+puts amount
+*/
