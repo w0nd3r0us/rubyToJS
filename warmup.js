@@ -43,16 +43,16 @@ var total = 0
 for(var i=0; i < times; i++){
     console.log(total += 1);
 }
+
 // ex7
-/*
-(3..15).each do |height|
-  if height > 9
-    puts "You can get on the rollercoaster!"
-  else
-    puts "You are too short to ride this rollercoaster."
-  end
-end
-*/
+
+for (var i = 3; i <= 15; i++){
+  if (i > 9) {
+    console.log("you can ride this rollercoaster");
+  } else {
+    console.log("you are too short to ride this rollercoaster");
+  }
+}
 
 // ex8
 var i=0, item, containers = ['purse','wallet','backpack'];
