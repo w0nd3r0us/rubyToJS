@@ -25,3 +25,9 @@ if (num >= 11) {
 }
 
 // ex4
+var times = 10;
+for(var i=0; i < times; i++){
+    console.log("Doing the same thing over and over.");
+}
+
+// ex5
