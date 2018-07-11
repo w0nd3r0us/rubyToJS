@@ -13,4 +13,15 @@ var wordsObject = {
   iceCream: 'A delicious milk-based dessert.',
 }
 
-// ex 3
+// ex3
+var num = 9
+
+if (num >= 11) {
+    console.log(num + " is greater than 10.");
+  } else if (num < 10) {
+    console.log(num + " must be less than 10.")
+  } else {
+    console.log(num + " is exactly 10.");
+}
+
+// ex4
