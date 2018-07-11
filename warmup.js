@@ -65,11 +65,10 @@ var helloWorld = console.log("Hello World!")
 helloWorld
 
 // ex10
-/*
-def add(first_num, second_num)
-  first_num + second_num
-end
 
-amount = add(5, 7)
-puts amount
-*/
+function add(firstNum, secondNum) {
+  var sum = firstNum + secondNum;
+  console.log(sum)
+}
+
+add(5,7)
